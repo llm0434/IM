@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_chat"
+        android:title="消息"
+        android:icon="@drawable/msg_select"/>
+
+    <item
+        android:id="@+id/item_contact"
+        android:title="联系人"
+        android:icon="@drawable/contact_normal"/>
+
+    <item
+        android:id="@+id/item_setting"
+        android:title="更多"
+        android:icon="@drawable/setting_normal"/>
+
+
+
+</menu>

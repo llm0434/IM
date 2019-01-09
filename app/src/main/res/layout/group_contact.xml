@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_group_contact_icon"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/image_male"/>
+
+        <TextView
+            android:id="@+id/tv_group_contact_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="群成员"
+            android:layout_marginTop="10dp"
+           android:layout_gravity="center"
+            android:textSize="13dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_group_contact_delete"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/delete_contact"/>
+
+
+</RelativeLayout>

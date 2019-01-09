@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/iv_new_invite_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/image_male"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_new_invite_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Warm"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:id="@+id/tv_new_invite_reason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:textColor="@color/black"
+            android:text="消息：加个好友"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+
+        <ImageView
+            android:id="@+id/iv_new_invite_agree"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/agree"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/iv_new_invite_refuse"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/refuse"
+            android:layout_marginLeft="20dp"
+            android:clickable="true"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

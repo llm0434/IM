@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.activity.AddFreGroActivity">
+
+
+    <include layout="@layout/add_fri_gro"/>
+
+
+   <android.support.design.widget.TabLayout
+       android:id="@+id/tl_add_f_g"
+       android:layout_width="match_parent"
+       android:layout_height="38dp"
+       app:tabGravity="center"
+       app:tabTextColor="@color/con_text_color"
+       app:tabSelectedTextColor="@color/blue"
+       app:tabMode="fixed"
+       app:tabTextAppearance="@style/tab_text_style"
+       app:tabIndicatorColor="@color/blue"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="?android:listDivider"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_add_f_g"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </android.support.v4.view.ViewPager>
+
+
+
+
+
+
+</LinearLayout>
